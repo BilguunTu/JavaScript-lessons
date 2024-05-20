@@ -57,12 +57,5 @@ console.log(string.charAt(lastString));
 let str = "The";
 console.log(str.concat("First", "Programming"));
 
-//a;sldkf
-
-let substring =
-  "I love JavaScript. If you do not love JavaScript what else can you love.";
-
-console.log(substring.match("love"));
-
-//slice
-console.log(first);
+//repeat
+console.log(string.repeat(2));
