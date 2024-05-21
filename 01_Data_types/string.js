@@ -11,51 +11,55 @@ let age = 29;
 //string concatenation
 
 let fullName = lastName + space + firstName;
-console.log(fullName);
+// console.log(fullName);
+// console.log(lastName + space + firstName);
 
 let personInfoOne = fullName + ". I am " + age + ". I live in " + country;
 
-// \n: new line
-// \t: Tab,
-// \\: Back slash
-// \': Single quote (')
-// \": Double quote (")
+// console.log(personInfoOne);
+// \n  : new line
+// \t  : Tab,
+// \\  : Back slash
+// \'  : Single quote (')
+// \"  : Double quote (")
 
-//string methods
-let js = "JavaScript";
+// //string methods
+let js = "  JavaScript";
 console.log(js.length);
 
-// upperCase
+let pro = `this, is ${js.toUpperCase()}`;
+
+// // upperCase
 console.log(js.toUpperCase());
 
-//lowerCase
+// //lowerCase
 console.log(js.toLowerCase());
 
-//substr
-console.log(js.substring(4));
+// //substr
+// console.log(js.substring(4));
 
-//split
-console.log(js.split(" "));
+// //split
+console.log(pro.split("i"));
 
-//trim (none space)
+// //trim (none space)
 console.log(js.trim(" "));
 
-//includes
+// //includes
 console.log(js.includes("Java"));
 console.log(js.includes("java"));
 
-//replace
-let string = "The first programming language is Javascript";
+// //replace
+let string = "The first programming language is Javascript. ";
 console.log(string.replace("Javascript", "Phyton"));
 
-//charAt  (Takes index and it returns the value at that index)
+// //charAt  (Takes index and it returns the value at that index)
 console.log(string.charAt(0));
 let lastString = string.length - 1;
 console.log(string.charAt(lastString));
 
-//concat
+// //concat
 let str = "The";
 console.log(str.concat("First", "Programming"));
 
-//repeat
-console.log(string.repeat(2));
+// //repeat
+console.log(string.repeat(5));
