@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Input</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button class="open-modal-btn">Open Click</button>
+    <div class="cards"></div>
+    <div class="modal-container flex align-item justify-content">
+      <div class="modal">
+        <form>
+          <div class="modal-header">
+            <h1>Hi , I'm a Modal</h1>
+            <div class="moadl-close-btn">x</div>
+          </div>
+          <label for="title">title</label>
+          <input name="title" id="title" />
+          <label for="description">Description</label>
+          <textarea name="description" name="description" rows="4"></textarea>
+          <button type="submit">Create</button>
+        </form>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
